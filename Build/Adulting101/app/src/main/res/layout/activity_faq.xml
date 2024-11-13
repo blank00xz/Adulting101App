@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Heading -->
+        <TextView
+            android:id="@+id/faq_heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Frequently Asked Questions"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:paddingBottom="16dp"
+            android:gravity="center" />
+
+        <!-- FAQ Image below Heading -->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_faq"
+            android:layout_gravity="center"
+            android:paddingBottom="16dp"/>
+
+        <!-- FAQ 1 -->
+        <Button
+            android:id="@+id/faq1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. What is Adulting 101?" />
+
+        <TextView
+            android:id="@+id/answer1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:text="Adulting 101 is an app designed to help you master essential life skills like cooking, managing finances, and self-care." />
+
+        <!-- FAQ 2 -->
+        <Button
+            android:id="@+id/faq2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. How do I use the knowledge page?" />
+
+        <TextView
+            android:id="@+id/answer2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:text="The knowledge page provides general information on various topics related to our courses. Simply select a course to start learning." />
+
+        <!-- FAQ 3 -->
+        <Button
+            android:id="@+id/faq3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. How do I set a date for an activity?" />
+
+        <TextView
+            android:id="@+id/answer3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:text="Use the to-do date selector to schedule your cooking, finance, or self-care activities. Pick a date and save it to your calendar." />
+
+        <!-- FAQ 4 -->
+        <Button
+            android:id="@+id/faq4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Can I take quizzes to test my knowledge?" />
+
+        <TextView
+            android:id="@+id/answer4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:text="Yes, the app includes a quiz session where you can test your knowledge on various topics covered in the courses." />
+
+        <!-- FAQ 5 -->
+        <Button
+            android:id="@+id/faq5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. What topics are covered in the cooking course?" />
+
+        <TextView
+            android:id="@+id/answer5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:text="The cooking course covers basic cooking techniques, meal planning, and recipes for beginners." />
+
+        <!-- FAQ 6 -->
+        <Button
+            android:id="@+id/faq6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6. What will I learn in the finance course?" />
+
+        <TextView
+            android:id="@+id/answer6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:text="The finance course teaches budgeting, saving, investing basics, and managing personal finances effectively." />
+
+        <!-- FAQ 7 -->
+        <Button
+            android:id="@+id/faq7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7. How does the self-care course help me?" />
+
+        <TextView
+            android:id="@+id/answer7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:text="The self-care course focuses on mental and physical health, stress management, and developing healthy habits." />
+
+        <!-- FAQ 8 -->
+        <Button
+            android:id="@+id/faq8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="8. Can I track my progress in the courses?" />
+
+        <TextView
+            android:id="@+id/answer8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:text="Yes, you can track your progress in each course and see how much you've learned." />
+
+        <!-- FAQ 9 -->
+        <Button
+            android:id="@+id/faq9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="9. Is there a community feature in the app?" />
+
+        <TextView
+            android:id="@+id/answer9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:text="Currently, we do not have a community feature, but it is something we are considering for future updates." />
+
+        <!-- FAQ 10 -->
+        <Button
+            android:id="@+id/faq10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10. How do I provide feedback or get support?" />
+
+        <TextView
+            android:id="@+id/answer10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:text="You can provide feedback or get support by contacting us through the app's support section or via email." />
+
+    </LinearLayout>
+</ScrollView>

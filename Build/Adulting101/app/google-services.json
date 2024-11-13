@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "832160580028",
+    "firebase_url": "https://adulting101-79754-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "adulting101-79754",
+    "storage_bucket": "adulting101-79754.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:832160580028:android:db88e915437fe8cb3f6bb9",
+        "android_client_info": {
+          "package_name": "com.example.adulting101"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIs-2UtTY-VVrZGFuqnvOSx-ZxcQeHHPs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:832160580028:android:9573036c3d63cb653f6bb9",
+        "android_client_info": {
+          "package_name": "com.example.adulting101.ui.theme"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIs-2UtTY-VVrZGFuqnvOSx-ZxcQeHHPs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
