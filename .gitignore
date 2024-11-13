@@ -1,1 +1,4 @@
-.env
+.gradle/
+/build/
+*.env
+local.properties
